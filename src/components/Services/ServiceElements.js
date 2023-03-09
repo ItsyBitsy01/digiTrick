@@ -94,6 +94,7 @@ padding-top: 50px;
 export const ServicesH2=styled.h2`
     font-size: 20px;
     margin: 10px;
+    text-decoration:none;
 `
 export const ServicesP=styled.p`
 font-size: 20px;

@@ -1,3 +1,4 @@
+import { NavLinks } from "../NavBar/NavBarElement";
 import "./footer.css";
 const Footer = () => {
   return (
@@ -20,23 +21,23 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <div>
-          <h4>Home</h4>
+        <NavLinks to='/'> <h4>Home</h4></NavLinks>
        
         </div>
         <div>
-          <h4>Services</h4>
+        <NavLinks to='/service'>  <h4>Services</h4> </NavLinks>
           
         </div>
         <div>
-          <h4>Expertise</h4>
+        <NavLinks to='/expertise'> <h4>Expertise</h4> </NavLinks>
           
       </div>
         <div>
-          <h4>About Us</h4>
+     <NavLinks to='/about'>  <h4>About Us</h4></NavLinks>
           
         </div>
         <div>
-          <h4>Careers</h4>
+        <NavLinks to='/careers'>   <h4>Careers</h4> </NavLinks>
           
       </div>
     </div>
