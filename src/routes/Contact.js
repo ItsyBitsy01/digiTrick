@@ -80,10 +80,11 @@ const Contact = () => {
               <textarea cols='30' rows='10'>
                 Create a message here...
               </textarea>
-              <ReCAPTCHA ref={captcha}
+              <div className='recap'>
+              <ReCAPTCHA ref={captcha} className='recap1'
     sitekey="6LcBU0kkAAAAAGYVcUP6sokXvLYNsOIaH4wjexS9"
     onChange={onChange}
-  />
+  /></div>
               <button type='submit'  className='primary-btn' disabled={!verified} >SEND MESSAGE</button>
             </form>
 

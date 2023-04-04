@@ -89,7 +89,9 @@ color: black;
 margin: 10px;  
 text-align:center;
 padding-top: 50px;
-
+@media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
 `
 export const ServicesH2=styled.h2`
     font-size: 20px;

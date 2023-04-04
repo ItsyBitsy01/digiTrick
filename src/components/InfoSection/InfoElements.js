@@ -1,14 +1,14 @@
 import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
-   background: ${({lightBg}) => (lightBg ? "#f9f9f9" : "#163057")};
+   background: ${({lightBg}) => (lightBg ? "#fff" : "#163057")};
   display: flex;
   margin-top: -20px;
   margin-bottom: 50px;
  
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
-    margin-bottom: 99px;
+    padding: 50px 0;
+   
   }
 `;
 export const InfoWrapper = styled.div`
@@ -66,6 +66,9 @@ color: ${({ lightText }) => (lightText ? "#f7f8fa" : "black")};
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -75,8 +78,8 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
   }
 `;
 
@@ -88,7 +91,10 @@ export const Subtitle = styled.p`
   font-family: 'Encode Sans Expanded', sans-serif;
  
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
-`;
+
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }  `;
 
 export const BtnWrap = styled.div`
   display: flex;
@@ -104,4 +110,7 @@ export const Img = styled.img`
   margin: 0 0 0px 0;
  
   border-radius:10px;
+  @media screen and (max-width: 768px) {
+  height: 300px;
+  }
 `;

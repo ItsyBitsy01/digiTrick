@@ -50,8 +50,8 @@
     right: 0;
   }
   @media screen and (max-width: 850px) {
-    destination {
-    padding-right:-10px;
+    .destination {
+      padding: 3rem 2rem;
     }
     .first-des {
       display: flex;
