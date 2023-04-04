@@ -4,10 +4,11 @@ export const InfoContainer = styled.div`
    background: ${({lightBg}) => (lightBg ? "#f9f9f9" : "#163057")};
   display: flex;
   margin-top: -20px;
-  margin-bottom: -20px;
+  margin-bottom: 50px;
  
   @media screen and (max-width: 768px) {
     padding: 100px 0;
+    margin-bottom: 99px;
   }
 `;
 export const InfoWrapper = styled.div`
@@ -82,8 +83,10 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 24px;
+  
+  font-family: 'Encode Sans Expanded', sans-serif;
+ 
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
 

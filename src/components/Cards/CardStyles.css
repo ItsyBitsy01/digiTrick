@@ -37,6 +37,10 @@
     font-size: 1.3rem;
     padding: 0.9rem 0 0.2rem 0;
   }
+  .t-card p{
+    font-family: 'Encode Sans Expanded';
+    font-size: 20px;
+  }
   
   @media screen and (max-width: 850px) {
     .trip {

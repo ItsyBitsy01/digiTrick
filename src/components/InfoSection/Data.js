@@ -5,7 +5,7 @@ export const homeObjOne={
         lightTextDesc: false,
     topLine: 'Services',
     headline: 'Implementation',
-    description: 'Development from scratch ',
+    description: '-Development from scratch ',
              
   p1:'- Migration of CMS systems',
   p2:'- Migration of Ecommerce sites',
