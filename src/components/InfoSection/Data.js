@@ -4,16 +4,16 @@ export const homeObjOne={
         lightText: false,
         lightTextDesc: false,
     topLine: 'Services',
-    headline: 'Implementation',
-    description: '-Development from scratch ',
+    headline: 'Trainings',
+   
              
-  p1:'- Migration of CMS systems',
-  p2:'- Migration of Ecommerce sites',
-  p3: '- Analytics setup and report creation',
+  p1:'- XIPE TECH provides SEO services to business at affordable price with its specialist team of certified SEO expert',
+  p2:'- We are a professional search engine optimization company physically located in India.',
 
-    buttonLabel: 'learn more',
+
+
     imgStart: false,
-    img: require('../../images/homeImp.jpeg'),
+    img: require('../../images/seo.jpg'),
     alt:'Team',
     dark: false,
     primary: false,
@@ -25,12 +25,11 @@ export const homeObjOne={
         lightText: false,
         lightTextDesc: false,
         topLine: 'Services',
-        headline: 'Consulting',
-        description:'- Audit & Assessment of customer’s existing system and provide strategy for better solution',
-        p1:'- Play consulting role for customers',
-        buttonLabel: 'learn more',
+        headline: 'Job Support',
+        p1:'- Xipe Tech is a leading Mobile App Development Company in India we provide unique mobile application development services to develop solutions.',
+       p2:'- We enable and engage our clients with the world class mobile application development. ',
         imgStart: true,
-        img: require('../../images/homeConsult.jpeg'),
+        img: require('../../images/webDeve.jpg'),
         alt:'Team',
         dark: false,
         primary: false,
@@ -43,13 +42,85 @@ export const homeObjOne={
         lightText: false,
         lightTextDesc: false,
         topLine: 'Services',
-        headline: 'Managed Services',
-        description: '- Provide maintenance support to existing implementation of the mentioned technologies',
-        p1:'- Help customers by providing experienced resources as part of Staff Augmentation role for their existing implementations',
-        buttonLabel: 'learn more',
+        headline: 'Digital Marketing',
+        p1:'- Xipe Tech is a leading Mobile App Development Company in India we provide unique mobile application development services to develop solutions.',
+        p2:'- We enable and engage our clients with the world class mobile application development. ',
+         
         imgStart: false,
-        img: require('../../images/homeMang.jpeg'),
+        img: require('../../images/app.jpg'),
         alt:'Team',
         dark: false,
         primary: false,
         darkText: true}
+
+        export const homeObj4={
+          id:'servicest',
+          lightBg: true,
+          lightText: false,
+          lightTextDesc: false,
+          topLine: 'Services',
+          headline: 'Web Develpoment',
+          p1:'- Xipe Tech is a leading Mobile App Development Company in India we provide unique mobile application development services to develop solutions.',
+         p2:'- We enable and engage our clients with the world class mobile application development. ',
+          imgStart: true,
+          img: require('../../images/webDeve.jpg'),
+          alt:'Team',
+          dark: false,
+          primary: false,
+          darkText: true}
+          export const homeObj5={
+            id:'about',
+            lightBg: true,
+                lightText: false,
+                lightTextDesc: false,
+            topLine: 'Services',
+            headline: 'Mobile App Develpoment',
+           
+                     
+          p1:'- XIPE TECH provides SEO services to business at affordable price with its specialist team of certified SEO expert',
+          p2:'- We are a professional search engine optimization company physically located in India.',
+        
+        
+        
+            imgStart: false,
+            img: require('../../images/seo.jpg'),
+            alt:'Team',
+            dark: false,
+            primary: false,
+            darkText: true}
+            export const homeObj6={
+              id:'servicest',
+              lightBg: true,
+              lightText: false,
+              lightTextDesc: false,
+              topLine: 'Services',
+              headline: 'E-Commerce Setup',
+              p1:'- Xipe Tech is a leading Mobile App Development Company in India we provide unique mobile application development services to develop solutions.',
+             p2:'- We enable and engage our clients with the world class mobile application development. ',
+              imgStart: true,
+              img: require('../../images/webDeve.jpg'),
+              alt:'Team',
+              dark: false,
+              primary: false,
+              darkText: true}
+              export const homeObj7={
+                id:'about',
+                lightBg: true,
+                    lightText: false,
+                    lightTextDesc: false,
+                topLine: 'Services',
+                headline: 'C2C and W2 Employment Services',
+               
+                         
+              p1:'- XIPE TECH provides SEO services to business at affordable price with its specialist team of certified SEO expert',
+              p2:'- We are a professional search engine optimization company physically located in India.',
+            
+            
+            
+                imgStart: false,
+                img: require('../../images/seo.jpg'),
+                alt:'Team',
+                dark: false,
+                primary: false,
+                darkText: true}
+               

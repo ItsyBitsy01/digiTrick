@@ -11,10 +11,10 @@ const ServicesHome = () => {
     <Fragment>
         <section className='sh'>
             <div className='sh-heading'>
-            <span>
+            <span className='serv'>
             Our Services
             </span>
-            <h2>Leveraging Technology for Scaled Digital Experience</h2>
+            <h2>What We Do at Digi Trick Consultancy</h2>
             </div>
             <div className='s-row'>
                 {
@@ -29,7 +29,7 @@ const ServicesHome = () => {
                                     {detail.name}</h3>
                                     <p>
                                         {detail.info}</p>
-                                      <div className='s-b'>   <LinkButton to='/service'>Learn more</LinkButton></div></div>
+                                      <div className='s-b'>   <LinkButton to={detail.link}>Learn more</LinkButton></div></div>
                             </div>
                            </div>
                             

@@ -16,9 +16,10 @@
   }
   
   @media screen and (max-width: 850px) {
-    .about-container {
+    .about-container p{
       margin: 4rem 2rem;
       text-align: start;
+      /* padding: 200px; */
     }
   }
   

@@ -1,34 +1,27 @@
-
-import Fifth from "../../images/nurture.png";
-import Banner2 from "../../images/Banner2.jpeg";
-import one from "../../images/five.jpg";
-
-import im1 from "../../images/stC.jpg";
-import im2 from "../../images/nC.png";
-import im3  from "../../images/fC.jpg";
+import im1 from "../../images/eComm.jpg";
+import im2 from "../../images/domain.jpg";
+import im3  from "../../images/digiMark.jpg";
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
  
-  {title: "Transforming Business with the use of Advance Technologies",
-  url: im3,
-    urls: one
+  {title: "Our vision is to accelerate equity in the workplace and in society by lighting up pathways to career success for individuals from all backgrounds",
+  url: im2,
+   
  
     
   }, 
  
-
-
   {
-    title: "Crafting differentiated digital experience with MarTech",
+    title: "Unlocking Digital Potential Together",
     url: im1,
-    urls: Banner2
+
   },
   {
-    title: "Nurturing & Empowering Talent             for Digital Technologies",
-    url: im2,
-    urls: Fifth,
+    title: "Our mission is to close the talent gap by upskilling a diverse candidate pool to recast our clients’ workforces",
+    url:im3,
+   
   },
 
  

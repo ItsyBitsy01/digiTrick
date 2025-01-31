@@ -1,0 +1,60 @@
+/* Container for service cards */
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create two columns */
+  gap: 20px; /* Add space between the cards */
+  justify-content: center; /* Center the grid */
+  padding: 20px;
+  max-width: 1200px; /* Restrict the maximum width of the container */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+.service-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Make sure the card takes full space inside grid */
+  box-sizing: border-box;
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #163057;
+  margin-bottom: 15px;
+}
+
+.service-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.service-link {
+  background-color: #163057;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.service-link:hover {
+  background-color: #0b2345;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .service-list {
+      grid-template-columns: 1fr; /* Full width in one column on small screens */
+  }
+
+  .service-card {
+      width: 100%; /* Full width inside the grid */
+  }
+}

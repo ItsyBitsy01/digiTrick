@@ -1,5 +1,5 @@
 import "./Layout.css";
-import second from "../../images/ab.jpg"
+import second from "../../images/digiTrick copy.jpeg"
 const Layout = () => {
   return (
     <div className="body">
@@ -7,12 +7,11 @@ const Layout = () => {
         <img className="lay" src={second} alt="pic"/>
         <div className="text-box">
           <div className="s-divi"><span>About Us</span></div>
-            <h2>Helping organizations to enhance their digital experience</h2>
-            <p>Afucent is a technology driven company with major focus in digital experience and marketing technologies.</p>
-            <p>Our focus is to help organizations to reshape their business structure by leveraging advanced tools and making better use of scalable solutions.</p>
-
-            <p>We have a strong team with different levels of expertise helping clients and providing solutions with a good mix of business and technology</p>
+           
             <br/>
+            <p>Digi Trick Consultancy is a premier provider of digital solutions, dedicated to transforming businesses with innovative services. Our expertise spans across trainings, job support, digital marketing, SEO, domain and hosting, web development, mobile app development, and e-commerce setup. With a team of certified experts, we deliver affordable and effective SEO services, cutting-edge web and mobile app development, and comprehensive digital marketing strategies. Our mission is to bridge the talent gap by upskilling diverse candidates, ensuring our clients' workforce is future-ready. At DigiTrick Consultancy, we are committed to empowering businesses and individuals to achieve unparalleled success in the digital age.</p>
+
+          
             
  
          </div>

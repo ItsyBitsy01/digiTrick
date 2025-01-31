@@ -7,7 +7,7 @@ import styled from 'styled-components';
  z-index: 90;
  width: 100%;
  height: 100%;
- background: #052257; 
+ background: #bbd3ef; 
  display: grid;
  align-items: center;
  top: 0;
@@ -18,7 +18,7 @@ import styled from 'styled-components';
  `
 
  export const CloseIcon=styled(FaTimes)`
- color:#fff;`
+ color:#052257;`
 
  export const Icon=styled.div`
  position: absolute;
@@ -50,11 +50,11 @@ text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
 text-decoration: none;
-color: #fff;
+color: #052257;
 cursor: pointer;
  
 &: hover {
-    color:#92acdc;
+    color:#fff ;
     transition: 0.6s ease-in-out;
 }`;
 

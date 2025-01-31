@@ -1,0 +1,125 @@
+/* src/pages/AboutUs.css */
+.about-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-container h2 {
+    font-size: 36px;
+    color: #163057;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 18px;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .mission-vision-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .mission-vision-container h2 {
+    font-size: 36px;
+    color: #163057;
+    margin-bottom: 20px;
+  }
+  
+  .mission-vision {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mission, .vision {
+    width: 45%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission h3, .vision h3 {
+    font-size: 28px;
+    color: #163057;
+    margin-bottom: 10px;
+  }
+  
+  .mission p, .vision p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .values-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .values-container h2 {
+    font-size: 36px;
+    color: #163057;
+    margin-bottom: 20px;
+  }
+  
+  .values-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values-container ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .values-container ul li strong {
+    color: #163057;
+  }
+  
+  .history-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .history-container h2 {
+    font-size: 36px;
+    color: #163057;
+    margin-bottom: 20px;
+  }
+  
+  .history-container p {
+    font-size: 18px;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .team-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .team-container h2 {
+    font-size: 36px;
+    color: #163057;
+    margin-bottom: 20px;
+  }
+  
+  .team-container p {
+    font-size: 18px;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  

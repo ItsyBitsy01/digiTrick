@@ -1,8 +1,8 @@
 import React, {useEffect, useState}from 'react'
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import Icon3 from '../../images/AFUCENT.png';
-import Dropdown from './Dropdown';
+import Icon3 from '../../images/logo.png';
+
 import { Nav,NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItems, NavLinks} from './NavBarElement';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -23,24 +23,9 @@ const NavBar = ({toggle}) => {
 
 
 
-  const [dropdown, setDropdown] = useState(false);
-
-
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
-  };
-
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(true);
-    } else {
-      setDropdown(false);
-    }
-  };
+ 
+  
+  
 
   return (
     <> 
@@ -58,25 +43,11 @@ const NavBar = ({toggle}) => {
                 <NavItems>
                  <NavLinks to='/service'>Services </NavLinks>
                 </NavItems>
-                <NavItems onMouseEnter={onMouseEnter}
-           onMouseLeave={onMouseLeave} >
-                 <NavLinks  
-              to='/expertise'
-   
-            
-            >
-               Expertise 
-             
-            </NavLinks>
-            {dropdown && <Dropdown />}
-                </NavItems >
-                
+               
                 <NavItems>
                 <NavLinks to='/about'> About Us</NavLinks> 
                 </NavItems>
-                <NavItems>
-                  <NavLinks to='/careers'  >Careers </NavLinks>
-                </NavItems>
+               
                 <NavItems>
                 <NavLinks to='/contact' >Contact-Us </NavLinks>
                 </NavItems>

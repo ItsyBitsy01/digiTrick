@@ -1,7 +1,7 @@
 import "./CardStyles.css";
 import CardData from "./CardData";
-import img1 from "../../images/consult.jpg";
-import img2 from "../../images/Banner1.jpeg";
+import img1 from "../../images/digiTrick.jpeg";
+import img2 from "../../images/digiTrick.jpeg";
 function Card() {
   return (
     <div className="trip">

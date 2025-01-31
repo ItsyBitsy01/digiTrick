@@ -27,8 +27,7 @@ function Slider(props) {
         }
         nextSlide={() =>
           setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
-        }
-      />
+        } />
       <Dots
         activeIndex={activeIndex}
         sliderImage={sliderImage}

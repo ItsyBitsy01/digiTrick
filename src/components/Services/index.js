@@ -1,8 +1,8 @@
 import React from 'react'
 import "./hover.css"
-import Icon1 from '../../images/Content.png'
-import Icon2 from '../../images/Devices.png'
-import Icon3 from '../../images/Ecommerce.png'
+import Icon1 from '../../images/digiTrick.png'
+import Icon2 from '../../images/digiTrick.png'
+import Icon3 from '../../images/digiTrick.png'
 import { ServicesContainer, Servicesdiv, ServicesWrapper,ServicesBox, ServicesCard, ServicesH1, ServicesH2,
 ServicesP, ServicesIcon } from './ServiceElements';
 const Services = () => {
